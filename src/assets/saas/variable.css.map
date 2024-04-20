@@ -1,0 +1,1 @@
+{"version":3,"sources":["variable.scss","variable.css"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,4CAAA;ACCJ;;ADeA;EACI,qBAAA;ACZJ;;ADmBA;EACI;IACI,gBAZM;ECJZ;AACF;ADmBA;EACI;IACI,gBAnBM;ECEZ;AACF;ADoBA;EACI;IACI,gBA1BM;ECQZ;AACF;ADqBA;EACI;IACI,iBAjCM;ECcZ;AACF;ADsBA;EACI;IACI,iBAxCO;ECoBb;AACF","file":"variable.css"}

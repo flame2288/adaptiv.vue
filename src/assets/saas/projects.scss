@@ -1,0 +1,30 @@
+/*  Стили для блока с проектами */
+
+.projects{
+    .row{
+      row-gap: 24px;  
+    }
+    margin-bottom: 100px;
+    .projects__card {
+    img{
+        border-radius: 15px;
+        margin-bottom: 12px;
+        width: 100%;
+        }
+        a{
+            color: #FFA239;
+            font-weight: 600;
+            font-size: 18px;
+            text-decoration: none;
+            margin-bottom: 6px;
+            display: inline-block;
+            &:hover{
+                text-decoration: underline;
+            }   
+        }
+    }
+}
+
+
+
+/*Стили для блока с проектами */

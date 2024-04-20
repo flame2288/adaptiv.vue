@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* Стили для главного блока */
+.promo {
+  margin-bottom: 65px;
+}
+.promo h1 span {
+  color: #FFA239;
+}
+.promo .promo-bg {
+  height: 628px;
+  background: url("../public/bg.svg") center no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo-bg {
+    height: 670px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo .promo-bg {
+    background: none;
+    height: auto;
+  }
+}
+.promo .promo-bg .promo-bg-md {
+  display: none;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .promo .promo-bg .promo-bg-md {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.promo .promo-bg p {
+  margin-bottom: 262px;
+}
+@media screen and (max-width: 991px) {
+  .promo .promo-bg p {
+    margin-bottom: 268px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promo .promo-bg p {
+    margin-bottom: 20px;
+  }
+}
+.promo .promo-bg .promo__list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.promo .promo-bg .promo__list:last-child {
+  margin-bottom: 0;
+}
+
+/* конец Стили для главного блока *//*# sourceMappingURL=promo.css.map */
